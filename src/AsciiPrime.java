@@ -5,7 +5,7 @@ import java.util.Random;
 public class AsciiPrime {
 
     private char[] number;
-    private final int PRIME_CERTAINTY = 20;
+    private final int PRIME_CERTAINTY = 100;
     private final char FILL_DIGIT = 9;
     private final char[] POSSIBLE_DIGITS = {0, 3, 5, 6, 8, 8, 8};
     private ArrayList<Integer> fill_positions;
